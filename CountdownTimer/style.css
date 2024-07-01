@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&display=swap');
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+     
+    50% {
+        background-position: 100% 50%;
+    }
+     
+     100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+#timer {
+    height: 400px;
+    width: 250px;
+    background-color: rgba(187, 255, 0, 0.251);
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 2em;
+    font-family: "Playwrite NZ", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: beige;
+    text-align: center; /* Added for better alignment */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+
+
+
